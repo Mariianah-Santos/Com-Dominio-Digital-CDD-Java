@@ -13,5 +13,6 @@ public class ex2 {
         System.out.print("Escreva uma frase => ");
         StringTokenizer texto = new StringTokenizer(teclado.nextLine());
         System.out.println(texto.countTokens());
+        teclado.close();
     }
 }

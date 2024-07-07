@@ -10,5 +10,6 @@ public class ex4 {
         System.out.print("FRASE: ");
         String txt = teclado.nextLine().toUpperCase();
         System.out.println(txt);
+        teclado.close();
     }
 }
